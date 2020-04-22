@@ -6,13 +6,6 @@
 Node.js
 </h3>
 
-<p>
-    <a href="thought_balloon-softwares">Softwares</a>
-    <a href="sparkles-especificacoes-tecnicas"> Especificações Técnicas</a>
-    <a href="dizzy-requisitos-testes"> Requisitos para Teste</a>
-    <a href="mailbox-dev">DEV</a>
-</p>
-
 # :thought_balloon: Softwares utilizados
 
 <p>VSCode<p>
