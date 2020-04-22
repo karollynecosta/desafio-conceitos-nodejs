@@ -7,10 +7,10 @@ Node.js
 </h3>
 
 <p>
-    <a href="#-softwares">Softwares</a>
-    <a href="#-especificacoes-tecnicas"> Especificações Técnicas</a>
-    <a href="#-requisitos-testes"> Requisitos para Teste</a>
-    <a href="#-dev">Contato DEV</a>
+    <a href="thought_balloon-softwares">Softwares</a>
+    <a href="sparkles-especificacoes-tecnicas"> Especificações Técnicas</a>
+    <a href="dizzy-requisitos-testes"> Requisitos para Teste</a>
+    <a href="mailbox-dev">DEV</a>
 </p>
 
 # :thought_balloon: Softwares utilizados
@@ -30,7 +30,7 @@ yarn
 yarn dev
 yarn test </p>
 
-# :dizzy: Requisitos para Teste
+# :dizzy: Requisitos Teste
 
 - **`should be able to create a new repository`**: Para que esse teste passe, sua aplicação deve permitir que um repositório seja criado, e retorne um json com o projeto criado.
 
@@ -50,7 +50,7 @@ yarn test </p>
 
 - **`should not be able to like a repository that does not exist`**: Para que esse teste passe, você deve validar na sua rota de like se o id do repositório enviado pela url existe ou não. Caso não exista, retornar um erro com status `400`.
 
-# :mailbox: Contato DEV
+# :mailbox: DEV
 
 E-mail para contato: karolcosta2@gmail.com
 Linkedin: https://www.linkedin.com/in/karollyne-costa-2a185aa7/
