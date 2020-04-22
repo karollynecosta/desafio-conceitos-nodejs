@@ -10,8 +10,8 @@ Node.js
 
 # :thought_balloon: Softwares utilizados
 
-VSCode
-Insomnia
+<p>VSCode<p>
+<p>Insomnia<p>
 
 # :sparkles: Especificações Técnicas
 
