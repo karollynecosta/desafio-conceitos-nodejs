@@ -28,18 +28,20 @@ app.put("/repositories/:id", (request, response) => {
   const { id } = request.params;
   const { title, url, techs } = request.body;
 
-  const repositoriesIndex = repositories.findIndex(
-    (repositorie) => repositorie.id === id
-  );
+  const repositoriesIndex = repositories.findIndex((rep) => rep.id === id);
 
   if (repositoriesIndex < 0) {
     return response.status(400).json({ error: "Repositorie not found!" });
   }
 
+  const likes = repositories[repositoriesIndex].likes;
+
   const repositorie = {
+    id,
     title,
     url,
     techs,
+    likes,
   };
   repositories[repositoriesIndex] = repositorie;
 
